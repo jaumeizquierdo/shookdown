@@ -1,0 +1,44 @@
+/* ////// HOME: SHOP ////// */
+
+@import 'shookdown-variables.scss';
+
+.home-shop {
+    background: #000;
+    .shop-title  {
+        margin-bottom: 30px !important;
+        h2 {
+            font-size: 3em !important;
+            font-weight: 800 !important;
+            color: $main-color !important;
+        }
+        .shop-entry {
+            p {
+                font-weight: 800;
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 1em;
+                strong {
+                    color: $main-color;
+                }
+            }
+        }
+        .shop-btn {
+            background: #fff;
+            text-transform: uppercase;
+            padding: 10px 25px;
+            font-size: 1.2em;
+            font-weight: 800;
+            border-radius: 0;
+            border: 4px solid #62B449;
+        }
+    }
+    .et_pb_image {
+        .et_pb_image_wrap {
+            text-align: center;
+        }
+        img {
+            width: 90%;
+            border: 8px solid #fff;
+        }
+    }
+}

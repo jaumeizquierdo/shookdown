@@ -1,0 +1,19 @@
+/* ////// PAGINATION ////// */
+
+@import 'shookdown-variables.scss';
+
+.pagination {
+    a {
+        background: $main-color;
+        color: #fff;
+        padding: 10px 15px;
+        font-weight: 700;
+        display: block;
+        box-shadow: 2px 2px 0 #000;
+        &:hover {
+            background: $hover-color;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}

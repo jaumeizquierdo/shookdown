@@ -1,0 +1,30 @@
+/* ////// HEADER ////// */
+/* ////// SHOOKDOWN VARIABLES ////// */
+.logo_container {
+  margin: 20px 0;
+}
+
+#top-menu li a {
+  font-weight: 700 !important;
+  padding: 0;
+  font-size: 1em !important;
+}
+
+#top-menu li a:hover {
+  background: #62B449;
+  color: #fff !important;
+}
+
+#top-menu li.current-menu-item > a {
+  background: #62B449;
+  color: #fff !important;
+}
+
+#top-menu-nav > ul > li > a:hover {
+  opacity: 1;
+}
+
+.et_header_style_centered #top-menu > li > a {
+  padding: 10px !important;
+}
+/*# sourceMappingURL=shookdown-header.css.map */

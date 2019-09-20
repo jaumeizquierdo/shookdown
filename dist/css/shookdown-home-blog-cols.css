@@ -1,0 +1,100 @@
+/* ////// HOME: BLOG COLS ////// */
+/* ////// SHOOKDOWN VARIABLES ////// */
+.blog-col-home {
+  background: #fff !important;
+  padding: 0 !important;
+  -webkit-box-shadow: 0 0 5px #ECEFF1 !important;
+          box-shadow: 0 0 5px #ECEFF1 !important;
+  transition: transform .2s, -webkit-transform .2s !important;
+}
+
+.blog-col-home:hover {
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
+}
+
+.blog-col-home p {
+  margin-bottom: 1em;
+  font-size: 1em;
+  text-align: left;
+}
+
+.blog-col-home .entry-title,
+.blog-col-home .post-meta,
+.blog-col-home .post-content {
+  padding: 0 20px 10px 20px !important;
+  text-align: left !important;
+}
+
+.blog-col-home h2 {
+  font-size: 1.3em !important;
+}
+
+.blog-col-home h2 a:after {
+  content: '';
+  display: block;
+  width: 80px !important;
+  height: 7px;
+  background: #62B449;
+  margin-top: 0.5rem;
+}
+
+.blog-col-home-wrapper article {
+  transition: transform .2s, -webkit-transform .2s !important;
+}
+
+.blog-col-home-wrapper article:hover {
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
+}
+
+.blog-col-home-wrapper .et_pb_image_container {
+  margin: 0;
+}
+
+.blog-col-home-wrapper .et_pb_post {
+  background: #fff !important;
+  padding: 0 !important;
+  -webkit-box-shadow: 0 0 5px #ECEFF1 !important;
+          box-shadow: 0 0 5px #ECEFF1 !important;
+  transition: transform .2s, -webkit-transform .2s !important;
+}
+
+.blog-col-home-wrapper .et_pb_post .entry-featured-image-url {
+  margin-bottom: 20px;
+}
+
+.blog-col-home-wrapper .entry-title,
+.blog-col-home-wrapper .post-meta,
+.blog-col-home-wrapper .post-content {
+  padding: 0 20px 0 20px !important;
+  text-align: left !important;
+}
+
+.blog-col-home-wrapper .post-content-inner p {
+  font-size: 0.95em;
+  text-align: left !important;
+  padding: 10px 0 25px 0;
+}
+
+.blog-col-home-wrapper h2.entry-title a {
+  color: #62B449 !important;
+}
+
+.blog-col-home-wrapper h2.entry-title a:hover {
+  color: #F50057 !important;
+}
+
+.blog-col-home-wrapper h2.entry-title a:after {
+  content: '';
+  display: block;
+  width: 80px !important;
+  height: 7px;
+  background: #62B449;
+  margin-top: 0.5rem;
+}
+
+.blog-col-home-wrapper h2 {
+  font-size: 1.1em !important;
+}
+/*# sourceMappingURL=shookdown-home-blog-cols.css.map */

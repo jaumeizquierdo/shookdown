@@ -1,0 +1,16 @@
+/* ////// FOOTER ////// */
+
+@import 'shookdown-variables.scss';
+
+.bottom-nav {
+    margin: 0;
+    li {
+        a {
+            color: #fff;
+            &:hover {
+                color: $hover-color;
+                text-decoration: none;
+            }
+        }
+    }
+}

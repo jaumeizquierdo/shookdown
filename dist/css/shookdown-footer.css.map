@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,WAAW,AAAC,CACR,MAAM,CAAE,CAAC,CAUZ,AAXD,AAGQ,WAHG,CAEP,EAAE,CACE,CAAC,AAAC,CACE,KAAK,CAAE,IAAI,CAKd,AATT,AAKY,WALD,CAEP,EAAE,CACE,CAAC,AAEI,MAAM,AAAC,CACJ,KAAK,CCPP,OAAO,CDQL,eAAe,CAAE,IAAI,CACxB",
+    "sources": [
+        "../../scss/shookdown-footer.scss",
+        "../../scss/shookdown-variables.scss"
+    ],
+    "names": [],
+    "file": "shookdown-footer.css"
+}

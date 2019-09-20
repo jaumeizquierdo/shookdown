@@ -1,0 +1,22 @@
+/* ////// IFRAMES FIXES ////// */
+
+@import 'shookdown-variables.scss';
+
+iframe {
+    margin: 30px auto;
+    display: block;
+    background: #fff;
+}
+
+.fluid-width-video-wrapper {
+    padding: 0 !important;
+    iframe,
+    object,
+    embed {
+        width: 800px !important;
+        height: 400px !important;
+        position: relative !important;
+        margin: 30px auto;
+        display: block;  
+    }
+}

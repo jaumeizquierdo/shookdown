@@ -1,0 +1,93 @@
+/* ////// SHOOKDOWN WOOCOMMERCE ////// */
+
+@import 'shookdown-variables.scss';
+
+.woocommerce {
+    div.product {
+        p.price {
+            color: $main-color;
+            font-size: 2em;
+            margin: 0;
+            font-weight: 700;
+            display: block;
+            width: 120px;
+            background: #fff;
+            padding: 5px 10px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            border-top: 1px solid #CFD8DC;
+            border-left: 1px solid #CFD8DC;
+        }
+    }
+    .out-of-stock {
+        color: white;
+        display: block;
+        background: $hover-color;
+        padding: 10px;
+        font-weight: 700;
+        border-radius: 4px;
+        width: 150px;
+        text-align: center;
+    }
+    .woocommerce-breadcrumb {
+        a {
+            font-weight: 700;
+            color: $main-color !important;
+            &:hover {
+                color: $hover-color !important;
+                text-decoration: none;
+            }
+        }
+    }
+    ul.products {
+        li.product {
+            .price {
+                font-size: 1em;
+                font-weight: 700;
+                color: $hover-color !important;
+            }
+            a {
+                img {
+                    border: 3px solid $main-color;
+                    box-shadow: 3px 3px 0 #ECEFF1 !important;
+                }
+            }
+        }
+    }
+    ul.products.columns-3 {
+        li.product {
+            background: #fff;
+            box-shadow: 0 0 5px #ECEFF1;
+            padding: 20px;
+            transition: transform .2s, -webkit-transform .2s;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+body.woocommerce #content-area div.product .woocommerce-tabs .panel,
+body.woocommerce div.product .woocommerce-tabs .panel {
+    background: #fff;
+}
+
+
+/* ////// WOOCOMMERCE ////// */
+
+.woocommerce-store-notice,
+p.demo_store {
+    background: $main-color;
+    padding: 10px 0 !important;
+    font-weight: 700;
+}
+
+.woocommerce ul.products.columns-3 li.product:hover,
+.woocommerce-page ul.products.columns-3 li.product:hover {
+    
+}
+
+.woocommerce-loop-product__title,
+.product .related h2 {
+    font-size: 1.2em !important;
+}

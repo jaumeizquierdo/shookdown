@@ -1,0 +1,91 @@
+/* ////// HOME: BLOG COLS ////// */
+
+@import 'shookdown-variables';
+
+.blog-col-home {
+    background: #fff !important;
+    padding: 0 !important;
+    box-shadow: 0 0 5px #ECEFF1 !important;
+    transition: transform .2s, -webkit-transform .2s !important;
+    &:hover {
+        transform: scale(1.1) !important;
+    }
+    p {
+        margin-bottom: 1em;
+        font-size: 1em;
+        text-align: left;
+    }
+    .entry-title,
+    .post-meta,
+    .post-content {
+        padding: 0 20px 10px 20px !important;
+        text-align: left !important;
+    }
+    h2 {
+        font-size: 1.3em !important;
+        a {
+            &:after {
+                content: '';
+                display: block;
+                width: 80px !important;
+                height: 7px;
+                background: #62B449;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+}
+
+.blog-col-home-wrapper {
+    article {
+        transition: transform .2s, -webkit-transform .2s !important;
+        &:hover {
+            transform: scale(1.1) !important;
+        }
+    }
+    .et_pb_image_container {
+        margin: 0;
+    }
+    .et_pb_post {
+        background: #fff !important;
+        padding: 0 !important;
+        box-shadow: 0 0 5px #ECEFF1 !important;
+        transition: transform .2s, -webkit-transform .2s !important;
+        .entry-featured-image-url {
+            margin-bottom: 20px;
+        }
+    }
+    .entry-title,
+    .post-meta,
+    .post-content {
+        padding: 0 20px 0 20px !important;
+        text-align: left !important;
+    }
+    .post-content-inner {
+        p {
+            font-size: 0.95em;
+            text-align: left !important;
+            padding: 10px 0 25px 0;
+        }
+    }
+    h2.entry-title {
+        a {
+            color: $main-color !important;
+            &:hover {
+                color: $hover-color !important;
+            }
+            &:after {
+                content: '';
+                display: block;
+                width: 80px !important;
+                height: 7px;
+                background: #62B449;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+    h2 {
+        font-size: 1.1em !important;
+        
+    }
+}

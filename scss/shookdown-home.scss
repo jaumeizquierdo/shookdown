@@ -1,0 +1,48 @@
+/* ////// HOME ////// */
+
+@import 'shookdown-variables.scss';
+
+.home {
+    .main_title {
+        h2 {
+            font-size: 1.4em !important;
+            &:after {
+                content: '';
+                display: block;
+                width: 70px;
+                height: 6px;
+                background: $main-color;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+}
+
+/* ////// HOME FIXES ////// */
+
+.page-id-50497 {
+    .single article,
+    .page article,
+    .single-post article,
+    .et_pb_post {
+        padding: 0 !important;
+        margin: 0 !important;
+        box-shadow: none;
+        background: none;
+        border: none;
+    }
+    #main-content {
+        background: #f7f7f7 !important;
+    }
+    .et_pb_section {
+        background: none !important;
+    }
+}
+
+.page #post-50497 {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    background: none !important;
+    border: none !important;
+}
