@@ -1,0 +1,12 @@
+@import '../base/_mixins';
+
+.home {
+    .main_title {
+        h2 {
+            font-size: 1.4em !important;
+            &:after {
+                @include title-bg(0.5rem 0 0 0, 70px, 6px);
+            }
+        }
+    }
+}

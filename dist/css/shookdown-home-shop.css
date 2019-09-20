@@ -1,2 +1,46 @@
-.home-shop{background:#000}.home-shop .shop-title{margin-bottom:30px !important}.home-shop .shop-title h2{font-size:3em !important;font-weight:800 !important;color:#62B449 !important}.home-shop .shop-title .shop-entry p{font-weight:800;text-transform:uppercase;color:#fff;font-size:1em}.home-shop .shop-title .shop-entry p strong{color:#62B449}.home-shop .shop-title .shop-btn{background:#fff;text-transform:uppercase;padding:10px 25px;font-size:1.2em;font-weight:800;border-radius:0;border:4px solid #62B449}.home-shop .et_pb_image .et_pb_image_wrap{text-align:center}.home-shop .et_pb_image img{width:90%;border:8px solid #fff}
+/* ////// HOME: SHOP ////// */
+/* ////// SHOOKDOWN VARIABLES ////// */
+.home-shop {
+  background: #000;
+}
+
+.home-shop .shop-title {
+  margin-bottom: 30px !important;
+}
+
+.home-shop .shop-title h2 {
+  font-size: 3em !important;
+  font-weight: 800 !important;
+  color: #62B449 !important;
+}
+
+.home-shop .shop-title .shop-entry p {
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1em;
+}
+
+.home-shop .shop-title .shop-entry p strong {
+  color: #62B449;
+}
+
+.home-shop .shop-title .shop-btn {
+  background: #fff;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  font-size: 1.2em;
+  font-weight: 800;
+  border-radius: 0;
+  border: 4px solid #62B449;
+}
+
+.home-shop .et_pb_image .et_pb_image_wrap {
+  text-align: center;
+}
+
+.home-shop .et_pb_image img {
+  width: 90%;
+  border: 8px solid #fff;
+}
 /*# sourceMappingURL=shookdown-home-shop.css.map */

@@ -1,6 +1,7 @@
 /* ////// HOME: BLOG COLS ////// */
 
 @import 'shookdown-variables';
+@import './moduls/title';
 
 .blog-col-home {
     background: #fff !important;
@@ -26,11 +27,7 @@
         a {
             &:after {
                 content: '';
-                display: block;
-                width: 80px !important;
-                height: 7px;
-                background: #62B449;
-                margin-top: 0.5rem;
+                @include title-bg(0.5rem 0 0 0, 80px, 7px);
             }
         }
     }
@@ -75,12 +72,7 @@
                 color: $hover-color !important;
             }
             &:after {
-                content: '';
-                display: block;
-                width: 80px !important;
-                height: 7px;
-                background: #62B449;
-                margin-top: 0.5rem;
+                @include title-bg(0.5rem 0 0 0, 80px, 7px);
             }
         }
     }

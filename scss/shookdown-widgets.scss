@@ -1,6 +1,8 @@
 /* ////// WIDGETS ////// */
 
-@import 'shookdown-variables.scss';
+@import 'shookdown-variables';
+@import './base/_placeholders';
+@import './base/_mixins';
 
 .widget_archive,
 .widget_recent_entries {
@@ -33,12 +35,7 @@
     margin: 0;
     padding: 15px 20px;
     &:after {
-        content: '';
-        display: block;
-        width: 60px !important;
-        height: 5px;
-        background: #62B449;
-        margin-top: 0.5rem;
+        @include title-bg(0.5rem 0 0 0, 60px, 5px);
     }
 }
 

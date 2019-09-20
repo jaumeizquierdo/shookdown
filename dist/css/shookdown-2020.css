@@ -6,6 +6,38 @@ By: Jaume Izquierdo
 */
 /* ////// MAIN ////// */
 /* ////// SHOOKDOWN VARIABLES ////// */
+/* Mixins */
+/* Mixins */
+.home .main_title h2 {
+  font-size: 1.4em !important;
+}
+
+.home .main_title h2:after {
+  content: '';
+  display: block;
+  background: #62B449;
+  margin: 0.5rem 0 0 0;
+  width: 70px;
+  height: 6px;
+}
+
+/* Mixins */
+.pagination a {
+  background: #62B449;
+  color: #fff;
+  padding: 10px 15px;
+  font-weight: 700;
+  display: block;
+  -webkit-box-shadow: 2px 2px 0 #000;
+          box-shadow: 2px 2px 0 #000;
+}
+
+.pagination a:hover {
+  background: #F50057;
+  color: #fff;
+  text-decoration: none;
+}
+
 /* ////// SHOOKDOWN MAIN STYLES ////// */
 /* ////// SHOOKDOWN VARIABLES ////// */
 a {
@@ -127,19 +159,6 @@ figcaption {
 
 /* ////// HOME ////// */
 /* ////// SHOOKDOWN VARIABLES ////// */
-.home .main_title h2 {
-  font-size: 1.4em !important;
-}
-
-.home .main_title h2:after {
-  content: '';
-  display: block;
-  width: 70px;
-  height: 6px;
-  background: #62B449;
-  margin-top: 0.5rem;
-}
-
 /* ////// HOME FIXES ////// */
 .page-id-50497 .single article,
 .page-id-50497 .page article,
@@ -185,6 +204,20 @@ figcaption {
 
 /* ////// HOME: BLOG COLS ////// */
 /* ////// SHOOKDOWN VARIABLES ////// */
+/* Mixins */
+.home .main_title h2 {
+  font-size: 1.4em !important;
+}
+
+.home .main_title h2:after {
+  content: '';
+  display: block;
+  background: #62B449;
+  margin: 0.5rem 0 0 0;
+  width: 70px;
+  height: 6px;
+}
+
 .blog-col-home {
   background: #fff !important;
   padding: 0 !important;
@@ -217,11 +250,12 @@ figcaption {
 
 .blog-col-home h2 a:after {
   content: '';
+  content: '';
   display: block;
-  width: 80px !important;
-  height: 7px;
   background: #62B449;
-  margin-top: 0.5rem;
+  margin: 0.5rem 0 0 0;
+  width: 80px;
+  height: 7px;
 }
 
 .blog-col-home-wrapper article {
@@ -273,10 +307,10 @@ figcaption {
 .blog-col-home-wrapper h2.entry-title a:after {
   content: '';
   display: block;
-  width: 80px !important;
-  height: 7px;
   background: #62B449;
-  margin-top: 0.5rem;
+  margin: 0.5rem 0 0 0;
+  width: 80px;
+  height: 7px;
 }
 
 .blog-col-home-wrapper h2 {
@@ -591,6 +625,7 @@ p.demo_store {
 
 /* ////// WIDGETS ////// */
 /* ////// SHOOKDOWN VARIABLES ////// */
+/* Mixins */
 .widget_archive ul li,
 .widget_recent_entries ul li {
   padding: 0;
@@ -628,10 +663,10 @@ p.demo_store {
 .widgettitle:after {
   content: '';
   display: block;
-  width: 70px !important;
-  height: 5px;
   background: #62B449;
-  margin-top: 0.5rem;
+  margin: 0.5rem 0 0 0;
+  width: 60px;
+  height: 5px;
 }
 
 #sidebar .et_pb_widget {
@@ -641,23 +676,6 @@ p.demo_store {
 }
 
 /* ////// PAGINATION ////// */
-/* ////// SHOOKDOWN VARIABLES ////// */
-.pagination a {
-  background: #62B449;
-  color: #fff;
-  padding: 10px 15px;
-  font-weight: 700;
-  display: block;
-  -webkit-box-shadow: 2px 2px 0 #000;
-          box-shadow: 2px 2px 0 #000;
-}
-
-.pagination a:hover {
-  background: #F50057;
-  color: #fff;
-  text-decoration: none;
-}
-
 /* ////// FOOTER ////// */
 /* ////// SHOOKDOWN VARIABLES ////// */
 .bottom-nav {

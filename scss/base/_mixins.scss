@@ -1,0 +1,24 @@
+/* Mixins */
+
+@mixin title-bg($margin, $width, $height) {
+    content: '';
+    display: block;
+    background: $main-color;
+    margin: $margin;
+    width: $width;
+    height: $height;
+}
+
+@mixin button($color, $padding, $box-shadow, $hover-text-color) {
+    background: $main-color;
+    color: $color;
+    padding: $padding;
+    font-weight: 700;
+    display: block;
+    box-shadow: $box-shadow;
+    &:hover {
+        background: $hover-color;
+        color: $hover-text-color;
+        text-decoration: none;
+    }
+}

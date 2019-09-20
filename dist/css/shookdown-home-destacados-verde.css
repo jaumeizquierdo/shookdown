@@ -1,2 +1,70 @@
-.home-destacados-verde{position:relative;background:#62B449}.home-destacados-verde .et_pb_post{margin-bottom:0}.home-destacados-verde .single article,.home-destacados-verde .page article,.home-destacados-verde .single-post article,.home-destacados-verde .et_pb_post{padding:0;-webkit-box-shadow:none !important;box-shadow:none !important;background:none !important}.home-destacados-verde .entry-title{padding-bottom:10px;padding-top:10px;font-size:1.2em !important;line-height:1.2em;margin:0}.home-destacados-verde .entry-title a{text-decoration:none;color:#000 !important;font-weight:800;text-transform:uppercase}.home-destacados-verde .entry-title a:hover{color:#fff !important}.home-destacados-verde .entry-title a::after{content:none !important}.home-destacados-verde .post-meta{position:absolute;top:135px;background:#000;color:#fff !important;padding:0 5px}.home-destacados-verde .post-meta a{color:#fff !important;font-size:0.7em;text-transform:uppercase;font-weight:800}.home-destacados-verde .post-content-inner p{font-size:0.85em !important;color:#fff;margin:0;text-align:left}.home-destacados-verde .entry-featured-image-url{border:4px solid #000}
+/* ////// HOME DESTACADOS VERDE ////// */
+/* ////// SHOOKDOWN VARIABLES ////// */
+.home-destacados-verde {
+  position: relative;
+  background: #62B449;
+}
+
+.home-destacados-verde .et_pb_post {
+  margin-bottom: 0;
+}
+
+.home-destacados-verde .single article,
+.home-destacados-verde .page article,
+.home-destacados-verde .single-post article,
+.home-destacados-verde .et_pb_post {
+  padding: 0;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  background: none !important;
+}
+
+.home-destacados-verde .entry-title {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 1.2em !important;
+  line-height: 1.2em;
+  margin: 0;
+}
+
+.home-destacados-verde .entry-title a {
+  text-decoration: none;
+  color: #000 !important;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.home-destacados-verde .entry-title a:hover {
+  color: #fff !important;
+}
+
+.home-destacados-verde .entry-title a::after {
+  content: none !important;
+}
+
+.home-destacados-verde .post-meta {
+  position: absolute;
+  top: 135px;
+  background: #000;
+  color: #fff !important;
+  padding: 0 5px;
+}
+
+.home-destacados-verde .post-meta a {
+  color: #fff !important;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.home-destacados-verde .post-content-inner p {
+  font-size: 0.85em !important;
+  color: #fff;
+  margin: 0;
+  text-align: left;
+}
+
+.home-destacados-verde .entry-featured-image-url {
+  border: 4px solid #000;
+}
 /*# sourceMappingURL=shookdown-home-destacados-verde.css.map */

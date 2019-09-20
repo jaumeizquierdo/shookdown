@@ -1,9 +1,8 @@
 {
     "version": 3,
-    "mappings": "AAIA,AACI,WADO,CACP,CAAC,AAAC,CACE,UAAU,CCJL,OAAO,CDKZ,KAAK,CAAE,IAAI,CACX,OAAO,CAAE,SAAS,CAClB,WAAW,CAAE,GAAG,CAChB,OAAO,CAAE,KAAK,CACd,UAAU,CAAE,cAAc,CAM7B,AAbL,AAQQ,WARG,CACP,CAAC,AAOI,MAAM,AAAC,CACJ,UAAU,CCVR,OAAO,CDWT,KAAK,CAAE,IAAI,CACX,eAAe,CAAE,IAAI,CACxB",
+    "mappings": "AAAA,8BAA8B",
     "sources": [
-        "../../scss/shookdown-pagination.scss",
-        "../../scss/shookdown-variables.scss"
+        "../../scss/shookdown-pagination.scss"
     ],
     "names": [],
     "file": "shookdown-pagination.css"

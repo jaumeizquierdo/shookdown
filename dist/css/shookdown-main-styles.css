@@ -1,2 +1,89 @@
-a{color:#62B449;text-decoration:none}a:hover{color:#F50057;text-decoration:none}h1,h2,h3,h4,h5,h6{font-weight:800}h1{font-size:2.2rem !important}h2{font-size:1.8rem !important}#main-content{background:#f7f7f7}.entry-title{text-transform:uppercase;font-weight:800;position:relative;margin:0 0 20px 0}.entry-title a:hover{color:#62B449 !important}.post-meta a{color:#62B449 !important;font-weight:700}h1.entry-title::after,.et_pb_post .entry-title a::after,.et_pb_post h2 a::after{content:'';display:block;width:100px;height:7px;background:#62B449;margin-top:0.5rem}.et_pb_post .entry-title h2{margin:0}.entry-content p{text-align:justify;margin-bottom:20px;padding:0}figcaption{font-size:0.9em;border-left:5px solid #62B449;padding-left:10px;margin-bottom:20px;font-style:italic;color:#62B449 !important;font-weight:700}.wp-block-quote{border-left:5px solid #62B449;padding:20px 30px;margin-bottom:20px;font-style:italic;color:#62B449 !important;font-weight:500;background:#E8F5E9}.wp-block-quote p{margin:0 !important}
+/* ////// SHOOKDOWN MAIN STYLES ////// */
+/* ////// SHOOKDOWN VARIABLES ////// */
+a {
+  color: #62B449;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F50057;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 2.2rem !important;
+}
+
+h2 {
+  font-size: 1.8rem !important;
+}
+
+#main-content {
+  background: #f7f7f7;
+}
+
+.entry-title {
+  text-transform: uppercase;
+  font-weight: 800;
+  position: relative;
+  margin: 0 0 20px 0;
+}
+
+.entry-title a:hover {
+  color: #62B449 !important;
+}
+
+.post-meta a {
+  color: #62B449 !important;
+  font-weight: 700;
+}
+
+h1.entry-title::after,
+.et_pb_post .entry-title a::after,
+.et_pb_post h2 a::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 7px;
+  background: #62B449;
+  margin-top: 0.5rem;
+}
+
+.et_pb_post .entry-title h2 {
+  margin: 0;
+}
+
+.entry-content p {
+  text-align: justify;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+figcaption {
+  font-size: 0.9em;
+  border-left: 5px solid #62B449;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #62B449 !important;
+  font-weight: 700;
+}
+
+.wp-block-quote {
+  border-left: 5px solid #62B449;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #62B449 !important;
+  font-weight: 500;
+  background: #E8F5E9;
+}
+
+.wp-block-quote p {
+  margin: 0 !important;
+}
 /*# sourceMappingURL=shookdown-main-styles.css.map */

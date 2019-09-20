@@ -2,22 +2,6 @@
 
 @import 'shookdown-variables.scss';
 
-.home {
-    .main_title {
-        h2 {
-            font-size: 1.4em !important;
-            &:after {
-                content: '';
-                display: block;
-                width: 70px;
-                height: 6px;
-                background: $main-color;
-                margin-top: 0.5rem;
-            }
-        }
-    }
-}
-
 /* ////// HOME FIXES ////// */
 
 .page-id-50497 {
